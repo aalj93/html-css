@@ -125,8 +125,9 @@ aside ul{
     list-style-type:'\1F5F8\00a0' ;
     list-style-position: inside;
     columns: 2;
-    padding: 8px;
-    width: 600px;
+    padding: 8px 2px;
+    min-width: 300px;
+    max-width: 600px;
     margin: auto;
     margin-top: 20px;
     text-align:center;
@@ -143,8 +144,8 @@ aside ul{
     position: absolute;
     top:5%;
     left: 5%;
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
 }
 footer{
     margin-top: 20px;
